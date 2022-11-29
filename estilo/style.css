@@ -20,7 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 0px;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.918);
     color: white;
 }
@@ -68,13 +68,13 @@ header{
     font-style: italic; 
     font-weight: normal;
     font-family:  'Yeseva One', serif;
-    font-size: 8vh;
+    font-size: 7vh;
 }
 .header-content p {
     font-style: italic; 
     font-weight: normal;
     font-family:  'Yeseva One', serif;
-    font-size: 8vh;
+    font-size: 7vh;
 }
 
 mark{
