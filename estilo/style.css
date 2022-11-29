@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 
 body{
     margin: 0;
@@ -55,7 +54,7 @@ nav p:hover{
 
 header{
     height: calc(100vh - 120px);
-    background: green url('/imagens/headersemletra.jpeg') center/cover no-repeat fixed;
+    background: url('/imagens/headersemletra.jpeg') center/cover no-repeat fixed;
     box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.507);
 }
 .header-content{
