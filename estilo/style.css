@@ -10,7 +10,7 @@ body{
 
 header{
     height: calc(100vh - 120px);
-    background: url('imagens/hrmenor.jpeg') center/cover no-repeat fixed;
+    background: url('../imagens/headersemletra.jpg') center/cover no-repeat fixed;
     box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.507);
 }
 .header-content{
