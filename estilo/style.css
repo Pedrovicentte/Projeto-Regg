@@ -10,7 +10,7 @@ body{
 
 header{
     height: calc(100vh - 120px);
-    background: url('/imagens/headersemletra.jpeg') center/cover no-repeat fixed;
+    background: url('/imagens/headersemletra.jpg') center/cover no-repeat fixed;
     box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.507);
 }
 .header-content{
@@ -74,8 +74,9 @@ nav a:hover{
     color: black;
     background-color: lightgray;
     padding: 5px;
-    border-radius: 25px;
-    transition: 0.3s;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-timing-function: 3s;
 }
 
 nav p:hover{
@@ -92,7 +93,7 @@ nav p:hover{
     }
 }
 
-@media (max-width:480px){
+@media (max-width:560px){
 body{
     height: calc(100vh - 55px);
 }
