@@ -80,6 +80,27 @@ nav p:hover{
     transition-timing-function: 0.3;
 }
 
+.reg1{
+    background-color: rgb(222, 223, 223);
+    height: 500px;
+}
+
+.reg1 .card{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(52, 57, 57);
+    border-radius: 20px 0px;
+    color: white;
+    margin: auto;
+
+}
+
+.reg1 .card-image{
+     width: 250px;
+     height: 150px;
+     border-radius: 20px 0px 0px;
+}
+
 /*RESPONSIVIDADE*/
 
 @media (max-width: 767px){
