@@ -10,7 +10,7 @@ body{
 
 header{
     height: calc(100vh - 120px);
-    background: url('/imagens/headersemletra.jpg') center/cover no-repeat fixed;
+    background: url('/imagens/hrmenor.jpeg') center/cover no-repeat fixed;
     box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.507);
 }
 .header-content{
@@ -20,13 +20,8 @@ header{
 
 }
 
-.header-content h1{
-    font-style: italic; 
-    font-weight: normal;
-    font-family:  'Yeseva One', serif;
-    font-size: 7vh;
-}
-.header-content p {
+.header-content h1, .header-content p {
+    padding-top: 60px;
     font-style: italic; 
     font-weight: normal;
     font-family:  'Yeseva One', serif;
