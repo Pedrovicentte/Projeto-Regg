@@ -85,7 +85,8 @@ nav a:hover{
 nav p:hover{
     color: lightgrey;
     transition: 0.6;
-    transition-timing-function: 0.3;
+    transition: 1.5s;
+    transition-delay: 0.2s;
 }
 
 /* PRODUTOS */
