@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
+
+
 *{
     box-sizing: border-box;
 }
@@ -11,6 +13,8 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*cabeçalho */
 
 header{
     height: calc(100vh - 120px);
@@ -76,52 +80,64 @@ nav a:hover{
     border-radius: 20px;
     transition: 0.5s;
     transition-timing-function: 3s;
+    transition-delay: 1;
 }
 
 nav p:hover{
     color: lightgrey;
-    transition: 0.6;
-    transition-timing-function: 0.3;
+    transition-duration: 1s;
+    transition-delay: 0.5;
 }
 
-section{
-    display: inline-block;
-    width: 100%;
-}
+/* PRODUTOS */
 
-.reg1{
+.produtos{
     display: flex;
-    height: 500px;
-    background-color: darkgrey;
-    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 50px;
 }
 
-.card{
-    margin: auto;
-}
-
-section .reg1 .card{
-    width: 250px;
-    height: 300px;
-    background-color: rgba(52, 57, 57, 0.873);
-    color: white;
-}
-
-.reg1 .card-image{
-     width: 250px;
-     height: 150px;
-}
-
-.reg1 h1, p{
+.produto{
+    padding-bottom: 10px;
+    cursor: pointer;
     text-align: center;
 }
 
-.reg1 p:hover{
-    color: black;
-    font-weight: bold;
-    background-color: white;
-    padding: 5px;
+.produto img{
+    height: 200px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer
+}
 
+.produto h1{
+    font-family: '', sans-serif;
+    font-weight: bolder;
+}
+
+.produto p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0D0D0D;
+    color: #F2ECD8;
+    padding: 5px 10px;
+}
+
+.produto p:hover{
+    font-weight: bolder;
+}
+
+.produto img:hover {
+    -webkit-filter: scale(1.5);
+    transform: scale( 1.1);
+}
+
+/*RODAPÉ*/
+
+footer{
+    background-color:  #0D0D0D ;
+    color: white;
+    text-align: center;
 }
 
 /*RESPONSIVIDADE*/
@@ -167,22 +183,3 @@ body{
         height: 55px;
     }
 }
-
-/*@media (max-width:768px) and (max-width:979px){
-    header{
-        background: green;
-    }
-}
-
-*/
-/*@media (max-width: 1200px){
-    header{
-        background: green;
-    }
-}*/
-
-/*@media (max-width:979px){
-    header{
-        background: green;
-    }
-}*/
