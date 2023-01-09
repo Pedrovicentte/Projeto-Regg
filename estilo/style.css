@@ -80,13 +80,12 @@ nav a:hover{
     border-radius: 20px;
     transition: 0.5s;
     transition-timing-function: 3s;
-    transition-delay: 1;
 }
 
 nav p:hover{
     color: lightgrey;
-    transition-duration: 1s;
-    transition-delay: 0.5;
+    transition: 0.6;
+    transition-timing-function: 0.3;
 }
 
 /* PRODUTOS */
@@ -139,7 +138,6 @@ footer{
     color: white;
     text-align: center;
 }
-
 /*RESPONSIVIDADE*/
 
 @media (max-width: 767px){
