@@ -222,7 +222,6 @@ footer #p1 {
 
 .socials{
     display: flex;
-    
     width: max-content;
     margin: auto;
     padding: 10px;
@@ -274,9 +273,9 @@ body{
         padding: 0;
         margin: 0;
 
-        background: black;
+        background: rgb(79, 79, 79);
         font-weight: bold;
-        height: 45px;
+        height: 40px;
 
         display: flex;
         justify-content: space-around;
@@ -299,7 +298,8 @@ body{
 
 @media (max-width:500px){
     footer{
-        height: calc(100vh - 585px);
-        padding-bottom: 5px 0px 60px 0px ;
+        display: block;
+        height: calc(100vh - 608px);
+        padding-bottom: 5px 0px 60px 0px ;  
     }
 }
